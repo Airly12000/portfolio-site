@@ -31,7 +31,7 @@
 }
 
 .col-dark-text {
-	color: #a8b2d1;
+	color: #8892b0;
 }
 
 .col-light {
@@ -72,8 +72,33 @@
 	margin-top: 6rem;
 }
 
+.mt-10 {
+	margin-top: 10rem;
+}
+
+.about-p {
+	line-height: 1.7rem;
+	/* letter-spacing: 1px; */
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-18 {
+	font-size: 18px;
+}
+
 .fs-20 {
 	font-size: 20px;
+}
+
+.fs-30 {
+	font-size: 30px;
 }
 
 .fs-60 {
@@ -95,4 +120,22 @@
 
 #btn-green:hover {
 	background-color: none;
+}
+
+ul.col-4 {
+	list-style-type: circle;
+}
+
+.about-img {
+	height: 300px;
+	width: 250px;
+	z-index: 1000;
+}
+
+.about-border {
+	border: #64ffda solid 2px;
+	height: 300px;
+	width: 250px;
+	top: 30px;
+	left: 50px;
 }

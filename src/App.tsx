@@ -5,7 +5,7 @@ import Socials from './components/Socials';
 import Email from './components/Email';
 import About from './sections/About';
 import Experience from './sections/Experience';
-import Work from './sections/Work';
+import Work from './sections/Projects';
 import Contact from './sections/Contact';
 import Introduction from './sections/Introduction';
 
