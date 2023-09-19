@@ -1,44 +1,30 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Socials from './components/Socials';
+import Email from './components/Email';
+import About from './sections/About';
+import Experience from './sections/Experience';
+import Work from './sections/Work';
+import Contact from './sections/Contact';
+import Introduction from './sections/Introduction';
 
 function App() {
 	return (
-		<div className='postition-relative bg-color col-dark-text vh-100'>
+		<div className='postition-relative bg-color col-dark-text'>
 			<Navbar />
-			<div className='d-flex flex-column-reverse position-absolute bottom-0 vh-100 socials text-center'>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className='mb-4'>
-					<i className='bi bi-instagram'></i>
-				</div>
-				<div className=''>
-					<i className='bi bi-linkedin'></i>
-				</div>
-				<div className=''>
-					<i className='bi bi-twitter'></i>
-				</div>
-				<div className=''>
-					<i className='bi bi-github'></i>
-				</div>
-			</div>
-			<div className='d-flex flex-column-reverse position-absolute bottom-0 email vh-100 text-center'>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className=''>|</div>
-				<div className='rot-90'>littlefrancis28@gmail.com</div>
-			</div>
+			<Socials />
+			<Email />
 			<div className='container pt-100'>
-				<div className='col'>Hello</div>
-				<div className='col'>Hello</div>
-				<div className='col'>Hello</div>
+				<Introduction />
+				<About />
+				<Experience />
+				<Work />
+				<Contact />
+				<nav className='d-flex justify-content-center text-center bg-color'>
+					Copyright &copy;
+				</nav>
 			</div>
-			<nav className='d-flex'>Copyright &copy;</nav>
 		</div>
 	);
 }

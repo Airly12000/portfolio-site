@@ -2,6 +2,12 @@
 	background-color: #0a192f;
 }
 
+.top-nav {
+	background-color: rgba(10, 24, 46, 0.2);
+	box-shadow: 0 4px 10px 0 rgb(10, 22, 46);
+	backdrop-filter: blur(10px);
+}
+
 .link-width {
 	width: 120px;
 }
@@ -9,6 +15,15 @@
 .mono {
 	font-family: monospace;
 	font-size: 15px;
+}
+
+.sans {
+	font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system,
+		system-ui, sans-serif;
+}
+
+.fw-b {
+	font-weight: bold;
 }
 
 .col-green {
@@ -19,25 +34,65 @@
 	color: #a8b2d1;
 }
 
+.col-light {
+	color: #ccd6f6;
+}
+
+.col-other {
+	color: #8892b0;
+}
+
 .pt-100 {
 	padding-top: 100px;
 }
 
 .socials {
-	left: 3%;
+	left: 3.5%;
 	width: 30px;
 }
 
 .email {
-	right: 3%;
+	right: 3.5%;
 	width: 30px;
 }
 
 .rot-90 {
 	transform: rotate(90deg);
-	margin-bottom: 180px;
+	margin-bottom: 215px;
+	letter-spacing: 1.1px;
+	font-size: 14px;
+	/* font-weight: bold; */
 }
 
 .mt-30 {
 	margin-top: 30px;
+}
+
+.mt-6 {
+	margin-top: 6rem;
+}
+
+.fs-20 {
+	font-size: 20px;
+}
+
+.fs-60 {
+	font-size: 60px;
+}
+
+.h-55 {
+	height: 55px;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+#btn-green {
+	color: #64ffda;
+	border: #64ffda solid 1px;
+}
+
+#btn-green:hover {
+	background-color: none;
 }

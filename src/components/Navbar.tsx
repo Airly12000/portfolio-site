@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
 	return (
-		<nav className='navbar fixed-top d-flex px-2 px-md-5 py-3 bg-color text-white'>
+		<nav className='navbar fixed-top d-flex px-2 px-md-5 py-3 bg-color text-white top-nav'>
 			<div className='flex-grow-1'>
 				<img src='assets/img/logo.svg' alt='Logo' height={50} width={50} />
 			</div>
@@ -20,7 +20,9 @@ function Navbar() {
 					<span className='col-green'>04.</span> Contact
 				</div>
 				<div className='link-width mono'>
-					<button className='btn btn-outline-success'>Resume</button>
+					<button className='btn' id='btn-green'>
+						Resume
+					</button>
 				</div>
 			</div>
 			<button
