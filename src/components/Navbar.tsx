@@ -4,20 +4,30 @@ function Navbar() {
 	return (
 		<nav className='navbar fixed-top d-flex px-2 px-md-5 py-3 bg-color text-white top-nav'>
 			<div className='flex-grow-1'>
-				<img src='assets/img/logo.svg' alt='Logo' height={50} width={50} />
+				<a href='/'>
+					<img src='assets/img/logo.svg' alt='Logo' height={50} width={50} />
+				</a>
 			</div>
 			<div className='d-none d-md-flex flex-direction-row align-items-center text-center col-dark-text'>
 				<div className='link-width mono'>
-					<span className='col-green'>01.</span> About
+					<a href='#about' className='nav-links'>
+						<span className='col-green'>01.</span> About
+					</a>
 				</div>
 				<div className='link-width mono'>
-					<span className='col-green'>02.</span> Experience
+					<a href='#experience' className='nav-links'>
+						<span className='col-green'>02.</span> Experience
+					</a>
 				</div>
 				<div className='link-width mono'>
-					<span className='col-green'>03.</span> Work
+					<a href='#projects' className='nav-links'>
+						<span className='col-green'>03.</span> Projects
+					</a>
 				</div>
 				<div className='link-width mono'>
-					<span className='col-green'>04.</span> Contact
+					<a href='#contact' className='nav-links'>
+						<span className='col-green'>04.</span> Contact
+					</a>
 				</div>
 				<div className='link-width mono'>
 					<button className='btn' id='btn-green'>

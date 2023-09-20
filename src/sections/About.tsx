@@ -2,10 +2,10 @@ import React from 'react';
 
 function About() {
 	return (
-		<div id='about' className='mt-10 mx-5 ps-5'>
+		<div id='about' className='mx-5 ps-5 pt-6'>
 			<div className='d-flex flex-row text-center align-items-center'>
-				<h1 className='sans col-light fw-b fs-30 my-3 me-md-3 col-other'>
-					<span className='col-green mono fs-30'>01.</span> About Me
+				<h1 className='sans col-light fw-b fs-26 my-3 me-md-3 col-other'>
+					<span className='col-green mono fs-26'>01.</span> About Me
 				</h1>
 				<svg
 					width='307'

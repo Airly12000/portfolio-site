@@ -21,7 +21,7 @@ function App() {
 				<Experience />
 				<Work />
 				<Contact />
-				<nav className='d-flex justify-content-center text-center bg-color'>
+				<nav className='d-flex justify-content-center text-center bg-color h-55 align-items-center mt-5'>
 					Copyright &copy;
 				</nav>
 			</div>
