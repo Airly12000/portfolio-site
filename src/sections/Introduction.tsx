@@ -15,9 +15,13 @@ function Introduction() {
 				designing) exceptional digital experiences. Currently, I'm a freelancer
 				looking for work...
 			</p>
-			<button type='button' className='btn w-25 h-55' id='btn-green'>
+			<a
+				href='mailto:littlefrancis28@gmai.com'
+				type='button'
+				className='btn w-25 h-55 align-items-center d-flex  justify-content-center'
+				id='btn-green'>
 				<span className='mono fs-18'>Contact Me</span>
-			</button>
+			</a>
 		</div>
 	);
 }

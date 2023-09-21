@@ -8,7 +8,9 @@ function Email() {
 			<div className=''>|</div>
 			<div className=''>|</div>
 			<div className=''>|</div>
-			<div className='rot-90 mono'>littlefrancis28@gmail.com</div>
+			<a href='mailto:littlefrancis28@gmail.com' className='rot-90 mono'>
+				littlefrancis28@gmail.com
+			</a>
 		</div>
 	);
 }

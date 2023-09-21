@@ -8,21 +8,23 @@ function Socials() {
 			<div className=''>|</div>
 			<div className=''>|</div>
 			<div className=''>|</div>
-			<div className='mb-4 fs-20'>
+			<a href='https://www.instagram.com/air._.ly' className='mb-4 fs-20'>
 				<i className='bi bi-instagram'></i>
-			</div>
-			<div className='mb-3 fs-20'>
+			</a>
+			<a
+				href='https://www.linkedin.com/in/francis-jnr-agbesi-ntibrey-9762781a5/'
+				className='mb-3 fs-20'>
 				<i className='bi bi-linkedin'></i>
-			</div>
-			<div className='mb-3 fs-20'>
+			</a>
+			<a href='https://twitter.com/airlyyy_' className='mb-3 fs-20'>
 				<i className='bi bi-twitter'></i>
-			</div>
-			<div className='mb-3 fs-20'>
+			</a>
+			<a href='https://web.facebook.com/diablo.noir.75' className='mb-3 fs-20'>
 				<i className='bi bi-facebook'></i>
-			</div>
-			<div className='mb-3 fs-20'>
+			</a>
+			<a href='https://github.com/Airly12000' className='mb-3 fs-20'>
 				<i className='bi bi-github'></i>
-			</div>
+			</a>
 		</div>
 	);
 }

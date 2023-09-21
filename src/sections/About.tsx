@@ -26,10 +26,9 @@ function About() {
 			<div className='row mt-4'>
 				<div className='col pe-4'>
 					<p className='fs-18 sans about-p'>
-						Highly motivated, dedicated with strong academic achievements.
-						Ambitious to pursue a career in Software Engineering, Artificial
-						Intelligence, Web Development, Cyber Security and Network
-						Administration.
+						Highly motivated, dedicated with ambitions to pursue careers in
+						Software Engineering, Artificial Intelligence, Web Development,
+						Cyber Security and Network Administration.
 					</p>
 					<p className='fs-18 sans about-p'>
 						My ability to collaborate effectively within cross-functional teams,
@@ -44,7 +43,7 @@ function About() {
 					</p>
 					<div className='row ps-3 mono'>
 						<ul className='col-4'>
-							<li>JavaScript</li>
+							<li>JavaScript (ES6+)</li>
 							<li>React</li>
 							<li>Express (NodeJs)</li>
 						</ul>

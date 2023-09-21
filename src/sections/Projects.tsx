@@ -51,17 +51,25 @@ function Projects() {
 					</div>
 					<div className='col mb-2 mt-3 row justify-content-end text-end'>
 						<div className='col-1'>
-							<i className='bi bi-github'></i>
+							<a
+								href='https://github.com/Airly12000/amalitech-invoice-app'
+								className='proj-link'>
+								<i className='bi bi-github'></i>
+							</a>
 						</div>
 						<div className='col-1'>
-							<i className='bi bi-box-arrow-up-right'></i>
+							<a
+								href='http://amalitech-invoice-app-production.up.railway.app'
+								className='proj-link'>
+								<i className='bi bi-box-arrow-up-right'></i>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className='position-relative h-350 mt-6'>
 				<img
-					src='assets/img/invoiceapp.png'
+					src='assets/img/adminox.png'
 					alt='invoiceapp'
 					className='right-img rounded'
 				/>
@@ -70,7 +78,7 @@ function Projects() {
 						<h6 className='mono fs-14 col-green'>Featured Project</h6>
 					</div>
 					<div className='col mb-2'>
-						<h4 className='fs-24 fw-b'>Invoice App</h4>
+						<h4 className='fs-24 fw-b'>MyHostel GH</h4>
 					</div>
 					<div className='col mb-2 proj-card rounded mt-4'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio
@@ -86,10 +94,16 @@ function Projects() {
 					</div>
 					<div className='col mb-2 mt-3 row justify-content-start text-start'>
 						<div className='col-1'>
-							<i className='bi bi-github'></i>
+							<a
+								href='https://github.com/Airly12000/MySite-frontend'
+								className='proj-link'>
+								<i className='bi bi-github'></i>
+							</a>
 						</div>
 						<div className='col-1'>
-							<i className='bi bi-box-arrow-up-right'></i>
+							<a href='http://github.com' className='proj-link'>
+								<i className='bi bi-box-arrow-up-right'></i>
+							</a>
 						</div>
 					</div>
 				</div>

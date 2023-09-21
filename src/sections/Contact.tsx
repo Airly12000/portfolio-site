@@ -14,9 +14,13 @@ function Contact() {
 				open. Whether you have a question or just want to say hi, I’ll try my
 				best to get back to you!
 			</p>
-			<button type='button' className='btn w-20 h-40 mt-5' id='btn-green'>
+			<a
+				href='mailto:littlefrancis28@gmai.com'
+				type='button'
+				className='btn w-20 h-40 mt-5 d-flex align-items-center justify-content-center'
+				id='btn-green'>
 				<span className='mono fs-18'>Contact Me</span>
-			</button>
+			</a>
 		</div>
 	);
 }
