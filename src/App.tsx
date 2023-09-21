@@ -21,8 +21,12 @@ function App() {
 				<Experience />
 				<Work />
 				<Contact />
-				<nav className='d-flex justify-content-center text-center bg-color h-55 align-items-center mt-5'>
-					Copyright &copy;
+				<nav className='d-flex justify-content-center flex-column text-center bg-color h-55 align-items-center mt-5'>
+					<span>Design by Brittany Chiang.</span>
+					<span>
+						Built by{' '}
+						<span className='col-green'>Agbesi-Ntibrey Francis Jnr</span>
+					</span>
 				</nav>
 			</div>
 		</div>

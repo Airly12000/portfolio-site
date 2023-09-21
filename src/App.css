@@ -95,6 +95,253 @@ a.rot-90:hover {
 	/* font-weight: bold; */
 }
 
+#intro h1 {
+	font-size: 40px;
+}
+
+#intro h4 {
+	font-size: 18px;
+}
+
+#intro p {
+	font-size: 14px;
+	width: 100%;
+}
+
+#intro a {
+	width: 250px;
+}
+
+#about div h1 {
+	font-size: 20px;
+}
+
+#about div h1 span {
+	font-size: 20px;
+}
+
+.about-p {
+	line-height: 1.7rem;
+	font-size: 16px;
+}
+
+.about-img {
+	height: 300px;
+	width: 100%;
+}
+
+.about-img img {
+	height: 300px;
+	width: 250px;
+	z-index: 1000;
+}
+
+.about-border {
+	border: #64ffda solid 2px;
+	height: 300px;
+	width: 250px;
+	top: 25px;
+	left: 120px;
+}
+
+#experience div div h1 {
+	font-size: 20px;
+}
+
+#experience div div h1 span {
+	font-size: 20px;
+}
+
+.exp-tab {
+	border-bottom: #233554 solid 2px;
+	background: transparent;
+	width: 120px;
+}
+
+.exp-tab:hover {
+	color: #64ffda;
+	background-color: #112240;
+	cursor: pointer;
+}
+
+.active {
+	border-bottom: #64ffda solid 2px;
+	color: #64ffda;
+	background-color: #112240;
+}
+
+.exp-details {
+	min-height: 300px;
+}
+
+.exp-details h3 {
+	font-size: 18px;
+}
+
+.exp-details h6 {
+	font-size: 16px;
+}
+
+.exp-details ul li {
+	font-size: 15px;
+}
+
+#contact h2 {
+	font-size: 35px;
+}
+
+#contact p {
+	width: 100%;
+	font-size: 16px;
+}
+
+#contact a {
+	width: 180px;
+}
+
+#projects div h1 {
+	font-size: 20px;
+}
+
+#projects div h1 span {
+	font-size: 20px;
+}
+
+.proj-text {
+	background-color: rgb(35, 53, 84, 0.9);
+	height: 345px;
+	padding: 5px 15px 5px 15px;
+	color: #8892b0;
+}
+
+.left-img {
+	min-height: 345px;
+	width: 100%;
+}
+
+.right-img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	min-height: 345px;
+	width: 100%;
+}
+
+@media screen and (width >= 768px) {
+	#intro h1 {
+		font-size: 60px;
+	}
+
+	#intro h4 {
+		font-size: 20px;
+	}
+
+	#intro p {
+		font-size: 18px;
+		max-width: 600px;
+	}
+
+	#about div h1 {
+		font-size: 26px;
+	}
+
+	#about div h1 span {
+		font-size: 26px;
+	}
+
+	.about-p {
+		font-size: 18px;
+	}
+
+	#experience div div h1 {
+		font-size: 26px;
+	}
+
+	#experience div div h1 span {
+		font-size: 26px;
+	}
+
+	.exp-details h3 {
+		font-size: 20px;
+	}
+
+	.exp-details h6 {
+		font-size: 16px;
+	}
+
+	.exp-details ul li {
+		font-size: 16px;
+	}
+
+	#contact h2 {
+		font-size: 50px;
+	}
+
+	#contact p {
+		width: 50%;
+		font-size: 18px;
+	}
+
+	#about div h1 {
+		font-size: 26px;
+	}
+
+	#about div h1 span {
+		font-size: 26px;
+	}
+
+	.left-img {
+		height: 345px;
+	}
+
+	.right-img {
+		height: 345px;
+	}
+}
+
+@media screen and (width >= 992px) {
+	.about-img img {
+		left: 0;
+		top: 0;
+	}
+
+	.about-border {
+		top: 25px;
+		left: 30px;
+	}
+
+	.exp-tab {
+		border-left: #233554 solid 2px;
+		border-bottom: none;
+	}
+
+	.active {
+		border-left: #64ffda solid 2px;
+		border-bottom: none;
+	}
+
+	.left-img {
+		width: 600px;
+	}
+
+	.right-img {
+		width: 600px;
+	}
+
+	.proj-text {
+		background-color: transparent;
+		/* padding: 5px 15px 5px 15px; */
+	}
+
+	.proj-card {
+		width: 500px;
+		min-height: 100px;
+		background-color: #112240;
+		box-shadow: 0 4px 8px 0 #0a192f;
+		padding: 1.2rem;
+	}
+}
+
 .mt-30 {
 	margin-top: 30px;
 }
@@ -121,11 +368,6 @@ a.rot-90:hover {
 
 .pt-10 {
 	padding-top: 10rem;
-}
-
-.about-p {
-	line-height: 1.7rem;
-	/* letter-spacing: 1px; */
 }
 
 .fs-12 {
@@ -180,6 +422,10 @@ a.rot-90:hover {
 	height: 55px;
 }
 
+/* .hp-100 {
+	min-height: 100%;
+} */
+
 .h-250 {
 	height: 250px;
 }
@@ -189,7 +435,7 @@ a.rot-90:hover {
 }
 
 .h-350 {
-	height: 350px;
+	min-height: 350px;
 }
 
 .w-20 {
@@ -236,20 +482,6 @@ ul.col-4 {
 	list-style-type: circle;
 }
 
-.about-img {
-	height: 300px;
-	width: 250px;
-	z-index: 1000;
-}
-
-.about-border {
-	border: #64ffda solid 2px;
-	height: 300px;
-	width: 250px;
-	top: 30px;
-	left: 50px;
-}
-
 .nav-links {
 	text-decoration: none;
 	color: #8892b0;
@@ -259,47 +491,6 @@ ul.col-4 {
 	color: #64ffda;
 }
 
-.exp-tab {
-	border-left: #233554 solid 2px;
-	background: transparent;
-}
-
-.exp-tab:hover {
-	color: #64ffda;
-	background-color: #112240;
-	cursor: pointer;
-}
-
-.active {
-	border-left: #64ffda solid 2px;
-	color: #64ffda;
-	background-color: #112240;
-}
-
 .col ul {
 	list-style-type: circle;
-}
-
-.left-img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 600px;
-}
-
-.right-img {
-	position: absolute;
-	right: 0;
-	top: 0;
-	height: 100%;
-	width: 600px;
-}
-
-.proj-card {
-	width: 500px;
-	min-height: 100px;
-	background-color: #112240;
-	box-shadow: 0 4px 8px 0 #0a192f;
-	padding: 1.2rem;
 }
