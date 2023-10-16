@@ -36,7 +36,7 @@ function Navbar() {
 				</div>
 				<div className='link-width mono'>
 					<a
-						href='assets/Resume.pdf'
+						href='assets/Job CV.pdf'
 						target='__blank'
 						className='btn'
 						id='btn-green'>
