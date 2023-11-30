@@ -27,8 +27,7 @@ function About() {
 				<div className='col pe-4'>
 					<p className='sans about-p'>
 						Highly motivated, dedicated with ambitions to pursue careers in
-						Software Engineering, Artificial Intelligence, Web Development,
-						Cyber Security and Network Administration.
+						Software Development (Web & Mobile), Artificial Intelligence, Cyber Security and Network Administration.
 					</p>
 					<p className='sans about-p'>
 						My ability to collaborate effectively within cross-functional teams,
@@ -55,6 +54,7 @@ function About() {
 						<ul className='col-4'>
 							<li>SQL (Mongo & MySQL)</li>
 							<li>Figma</li>
+							<li>ReactNative</li>
 						</ul>
 					</div>
 				</div>

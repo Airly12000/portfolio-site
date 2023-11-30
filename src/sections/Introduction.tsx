@@ -7,7 +7,7 @@ function Introduction() {
 			<h1 className='sans col-light fw-b my-3'>Agbesi-Ntibrey Francis Jnr.</h1>
 			<h1 className='sans col-other fw-b my-3'>I build things for the web.</h1>
 			<p className='sans mt-3 mb-5'>
-				I’m a software engineer specializing in building (and occasionally
+				I’m a software developer specializing in building (and occasionally
 				designing) exceptional digital experiences. Currently, I'm a freelancer
 				looking for work...
 			</p>

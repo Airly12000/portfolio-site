@@ -85,6 +85,9 @@ function Experience() {
 										functionality, security, and performance, ensuring they meet
 										both industry standards and user requirements.
 									</li>
+									<li>
+										Employing the capabilities of React Native framework in mobile development, enabling me to craft versatile and powerful applications for various platforms efficiently and effectively.
+									</li>
 								</ul>
 							</div>
 						)}
