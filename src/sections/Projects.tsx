@@ -52,7 +52,7 @@ function Projects() {
           <div className="col mb-2 mt-3 row justify-content-end text-end me-2 me-lg-0">
             <div className="col-1">
               <a
-                href="https://github.com/Airly12000/amalitech-invoice-app"
+                href="https://github.com/Airly12000/invoice_app_frontend"
                 className="proj-link"
               >
                 <i className="bi bi-github"></i>
@@ -60,7 +60,7 @@ function Projects() {
             </div>
             <div className="col-1">
               <a
-                href="http://amalitech-invoice-app-production.up.railway.app"
+                href="https://invoiceappfrontend.netlify.app"
                 className="proj-link"
               >
                 <i className="bi bi-box-arrow-up-right"></i>
@@ -103,7 +103,7 @@ function Projects() {
               </a>
             </div>
             <div className="col-1">
-              <a href="http://github.com" className="proj-link">
+              <a href="http://github.com/Airly12000" className="proj-link">
                 <i className="bi bi-box-arrow-up-right"></i>
               </a>
             </div>
