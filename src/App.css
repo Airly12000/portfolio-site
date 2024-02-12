@@ -26,6 +26,11 @@
     system-ui, sans-serif;
 }
 
+#disabled:hover {
+  color: #8892b0;
+  cursor: default;
+}
+
 .fw-b {
   font-weight: bold;
 }
@@ -75,6 +80,23 @@
 
 .proj-link:hover {
   color: #64ffda;
+}
+
+#other-card {
+  min-width: 300px;
+  height: 350px;
+  background-color: #112240;
+  box-shadow: 0 4px 8px 0 #0a192f;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  transition: transform ease 1s;
+}
+
+#other-card:hover {
+  h4 {
+    color: #64ffda;
+  }
+  cursor: pointer;
+  transform: translateY(-20px);
 }
 
 .socials a {
@@ -417,6 +439,10 @@ a.rot-90:hover {
 
 .fs-30 {
   font-size: 30px;
+}
+
+.fs-40 {
+  font-size: 40px;
 }
 
 .fs-50 {

@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   return (
@@ -93,20 +94,51 @@ function Projects() {
             <div className="col-lg-3 col">Bootsrap Icons</div>
             <div className="col-lg-2 col">React</div>
           </div>
-          <div className="col mb-2 mt-3 row justify-content-start text-start">
+          {/* <div className="col mb-2 mt-3 row justify-content-start text-start">
             <div className="col-1">
-              <a
-                href="https://github.com/Airly12000/MySite-frontend"
-                className="proj-link"
-              >
+              <a href="" className="proj-link" id="disabled">
                 <i className="bi bi-github"></i>
               </a>
             </div>
             <div className="col-1">
-              <a href="http://github.com/Airly12000" className="proj-link">
+              <a href="" className="proj-link" id="disabled">
                 <i className="bi bi-box-arrow-up-right"></i>
               </a>
             </div>
+          </div> */}
+          <div>N/A</div>
+        </div>
+      </div>
+      <div className="d-flex flex-column mt-10">
+        <div className="text-center mb-4">
+          <h3 className="col-light mb-3">Other Projects</h3>
+          {/* <p className="col-green">view the archive</p> */}
+        </div>
+        <div className="container">
+          <div className="row gap-4">
+            <ProjectCard
+              title="Jwt Auth Template"
+              body="Integrating JWT with Express, Sequelize ORM, and MySQL, I created a secure authentication system that allows users to access protected resources while ensuring data integrity and confidentiality."
+              // demo="https://github.com/Airly12000"
+              github="https://github.com/Airly12000/jwt_auth"
+              tools={["JavaScript", "Express", "Sequelize", "MySQL"]}
+            />
+            <ProjectCard
+              title="Redux Template"
+              body="Utilized the powerful state management library of redux in conjunction with axios to handle asynchronous data fetching. This template provides all that is needed to start using redux in your react applicaiton."
+              // demo="https://github.com/Airly12000"
+              github="https://github.com/Airly12000/redux_state_mgt"
+              tools={["TypeScript", "Redux", "Axios", "React"]}
+            />
+            {/* <ProjectCard
+              title="Something"
+              body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            suscipit, iusto saepe nemo beatae corporis at? Adipisci fugit, odit
+            numquam a, commodi, provident minus quia laboriosam recusandae vero
+            maxime asperiores?"
+              github="https://invoiceappfrontend.netlify.app"
+              tools={["Bootstrap", "Bootstrap Icons", "React"]}
+            /> */}
           </div>
         </div>
       </div>
