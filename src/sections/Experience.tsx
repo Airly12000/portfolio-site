@@ -104,10 +104,7 @@ function Experience() {
                   </span>
                 </h3>
                 <h6 className="mono">
-                  January 2020 - Present{" "}
-                  <i>
-                    <b>(Part time)</b>
-                  </i>
+                  January 2020 - Present
                 </h6>
                 <ul>
                   <li>
