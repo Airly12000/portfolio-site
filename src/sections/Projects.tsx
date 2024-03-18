@@ -61,7 +61,7 @@ function Projects() {
             </div>
             <div className="col-1">
               <a
-                href="https://invoiceappfrontend.netlify.app"
+                href="https://invoiceappfrontend.netlify.app" target="__blank"
                 className="proj-link"
               >
                 <i className="bi bi-box-arrow-up-right"></i>
