@@ -34,7 +34,7 @@ function ProjectCard({ title, description, github, demo, stack }: Props) {
           <p className="fs-14" style={{ textAlign: "justify" }}>
             {description}
           </p>
-          <div className="col mb-2 mb-md-4 mt-4 mono row d-flex gap-2 justify-content-start fs-12 text-start align-self-baseline">
+          <div className="col mb-2 mb-md-4 mt-4 mono row d-flex flex-wrap gap-2 justify-content-start fs-12 text-start align-self-baseline">
             {stack?.map((tool, index) => (
               <div key={index} className="col">
                 {tool}

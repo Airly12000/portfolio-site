@@ -30,7 +30,7 @@ function Experience() {
           </svg>
         </div>
         <div className="row mt-4 h-350">
-          <div className="col-lg-2 mono d-flex flex-lg-column flex-row fs-16 ps-3">
+          <div className="col-lg-2 mono d-flex flex-lg-column flex-row flex-wrap fs-16 ps-3">
             {ExperienceTabs?.map(({ label, value }) => {
               return (
                 <div

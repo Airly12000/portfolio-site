@@ -46,7 +46,7 @@ export default function FeatureCard({
           <div className={`proj-card rounded `}>{description}</div>
         </div>
         <div
-          className={`mb-2 mb-md-4 mt-4 mono d-flex gap-3 justify-content-${startOrEnd} fs-12 me-2 me-lg-0`}
+          className={`mb-2 mb-md-4 mt-4 mono d-flex flex-wrap gap-3 justify-content-${startOrEnd} fs-12 me-2 me-lg-0`}
         >
           {stack?.map((s, i) => {
             return <div key={i}>{s}</div>;
