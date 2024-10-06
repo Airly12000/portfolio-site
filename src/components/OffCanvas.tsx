@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLinks } from "../data/constants";
 
 const OffCanvas = () => {
   return (
@@ -19,44 +20,26 @@ const OffCanvas = () => {
         ></button>
       </div>
       <div className="offcanvas-body text-center">
-        <ul className="navbar-nav d-flex justify-content-center align-items-center flex-grow-1 pe-3">
-          <li
-            className="link-width mono mb-4 fs-20"
-            data-bs-dismiss="offcanvas"
-          >
-            <a href="#about" className="nav-links">
-              <div className="col-green">01.</div> About
-            </a>
-          </li>
-          <li
-            className="link-width mono mb-4 fs-20"
-            data-bs-dismiss="offcanvas"
-          >
-            <a href="#experience" className="nav-links">
-              <div className="col-green">02.</div> Experience
-            </a>
-          </li>
-          <li
-            className="link-width mono mb-4 fs-20"
-            data-bs-dismiss="offcanvas"
-          >
-            <a href="#projects" className="nav-links">
-              <div className="col-green">03.</div> Projects
-            </a>
-          </li>
-          <li
-            className="link-width mono mb-4 fs-20"
-            data-bs-dismiss="offcanvas"
-          >
-            <a href="#contact" className="nav-links">
-              <div className="col-green">04.</div> Contact
-            </a>
-          </li>
+        <ul className="navbar-nav d-flex justify-content-center gap-3 align-items-center flex-grow-1 pe-3">
+          {NavLinks.map(({ label, value }, index) => {
+            return (
+              <li
+                className="mono mb-4 fs-20"
+                data-bs-dismiss="offcanvas"
+                key={value}
+              >
+                <a href={value} className="nav-links">
+                  {index !== 0 && <div className="col-green">0{index}.</div>}{" "}
+                  {label}
+                </a>
+              </li>
+            );
+          })}
           <li
             className="link-width mono mb-4 h-55 mt-3 fs-20"
             data-bs-dismiss="offcanvas"
           >
-            <button
+            {/* <button
               className="btn w-100 h-100 d-flex align-items-center justify-content-center"
               type="button"
               data-bs-toggle="modal"
@@ -64,7 +47,16 @@ const OffCanvas = () => {
               id="btn-green"
             >
               Resume
-            </button>
+            </button> */}
+            <a
+              href="assets/Curriculum Vitae - Francis Junior - PDF.pdf"
+              target="__blank"
+              className="btn"
+              style={{ width: "80%" }}
+              id="btn-green"
+            >
+              CV
+            </a>
           </li>
         </ul>
       </div>

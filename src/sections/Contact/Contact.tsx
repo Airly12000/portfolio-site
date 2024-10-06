@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialLinks } from "./constants";
 
 function Contact() {
   return (
@@ -22,27 +23,13 @@ function Contact() {
         <span className="mono fs-18">Contact Me</span>
       </a>
       <div className="d-flex d-md-none justify-content-center align-items-center w-100 pt-5">
-        <a href="https://www.instagram.com/air._.ly" className="fs-20 socLink">
-          <i className="bi bi-instagram"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/francis-jnr-agbesi-ntibrey-9762781a5/"
-          className="fs-20 socLink"
-        >
-          <i className="bi bi-linkedin"></i>
-        </a>
-        <a href="https://twitter.com/airlyyy_" className="fs-20 socLink">
-          <i className="bi bi-twitter"></i>
-        </a>
-        <a
-          href="https://web.facebook.com/diablo.noir.75"
-          className="fs-20 socLink"
-        >
-          <i className="bi bi-facebook"></i>
-        </a>
-        <a href="https://github.com/Airly12000" className="fs-20 socLink">
-          <i className="bi bi-github"></i>
-        </a>
+        {SocialLinks.map(({ value, icon }, index) => {
+          return (
+            <a href={value} className="fs-20 socLink" key={index}>
+              <i className={icon}></i>
+            </a>
+          );
+        })}
       </div>
     </div>
   );

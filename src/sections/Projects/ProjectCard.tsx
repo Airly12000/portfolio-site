@@ -2,13 +2,13 @@ import React from "react";
 
 interface Props {
   title: string;
-  body: string;
+  description: string;
   github?: string;
   demo?: string;
-  tools: string[];
+  stack: string[];
 }
 
-function ProjectCard({ title, body, github, demo, tools }: Props) {
+function ProjectCard({ title, description, github, demo, stack }: Props) {
   return (
     <div className="col-md col-auto rounded" id="other-card">
       <div className="row">
@@ -17,13 +17,13 @@ function ProjectCard({ title, body, github, demo, tools }: Props) {
         </div>
         <div className="col d-flex align-items-center flex-row-reverse">
           <div className="d-flex flex-row-reverse gap-3">
-            {demo && (
-              <a href={demo} className="proj-link">
+            {!!demo && (
+              <a href={demo} className="proj-link" target="__blank">
                 <i className="bi bi-box-arrow-up-right fs-18"></i>
               </a>
             )}
-            {github && (
-              <a href={github} className="proj-link">
+            {!!github && (
+              <a href={github} className="proj-link" target="__blank">
                 <i className="bi bi-github fs-18"></i>
               </a>
             )}
@@ -32,10 +32,10 @@ function ProjectCard({ title, body, github, demo, tools }: Props) {
         <div className="mt-2 d-flex flex-column">
           <h4 className="col-light font-monospace">{title}</h4>
           <p className="fs-14" style={{ textAlign: "justify" }}>
-            {body}
+            {description}
           </p>
-          <div className="col mb-2 mb-md-4 mt-4 mono row justify-content-start fs-12 text-start align-self-baseline">
-            {tools.map((tool: string, index: number) => (
+          <div className="col mb-2 mb-md-4 mt-4 mono row d-flex gap-2 justify-content-start fs-12 text-start align-self-baseline">
+            {stack?.map((tool, index) => (
               <div key={index} className="col">
                 {tool}
               </div>

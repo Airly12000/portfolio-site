@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
+import { EmailConstant } from "../data/constants";
 
-function Email() {
-	return (
-		<div className='d-none d-md-flex flex-column-reverse position-fixed bottom-0 email text-center'>
-			<div className=''>|</div>
-			<div className=''>|</div>
-			<div className=''>|</div>
-			<div className=''>|</div>
-			<div className=''>|</div>
-			<a href='mailto:littlefrancis28@gmail.com' className='rot-90 mono'>
-				littlefrancis28@gmail.com
-			</a>
-		</div>
-	);
+export default function Email() {
+  return (
+    <div className="d-none d-md-flex flex-column-reverse position-fixed bottom-0 email text-center">
+      <div className="">|</div>
+      <div className="">|</div>
+      <div className="">|</div>
+      <div className="">|</div>
+      <div className="">|</div>
+      <a href={`mailto:${EmailConstant}`} className="rot-90 mono">
+        {EmailConstant}
+      </a>
+    </div>
+  );
 }
-
-export default Email;

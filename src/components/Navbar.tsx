@@ -1,7 +1,8 @@
 import React from "react";
 import OffCanvas from "./OffCanvas";
+import { NavLinks } from "../data/constants";
 
-function Navbar() {
+export default function Navbar() {
   window.addEventListener("resize", () => {
     const myOffcanvas = document.getElementById("offcanvasNavbar");
     myOffcanvas?.classList.remove("show");
@@ -13,29 +14,19 @@ function Navbar() {
           <img src="assets/img/logo.svg" alt="Logo" height={50} width={50} />
         </a>
       </div>
-      <div className="d-none d-md-flex flex-direction-row align-items-center text-center col-dark-text">
+      <div className="d-none d-md-flex flex-direction-row align-items-center gap-3 text-center col-dark-text">
+        {NavLinks.map(({ label, value }, index) => {
+          return (
+            <div className="mono" key={value}>
+              <a href={value} className="nav-links">
+                {index !== 0 && <span className="col-green">0{index}.</span>}{" "}
+                {label}
+              </a>
+            </div>
+          );
+        })}
         <div className="link-width mono">
-          <a href="#about" className="nav-links">
-            <span className="col-green">01.</span> About
-          </a>
-        </div>
-        <div className="link-width mono" id="w-experience">
-          <a href="#experience" className="nav-links">
-            <span className="col-green">02.</span> Experience
-          </a>
-        </div>
-        <div className="link-width mono">
-          <a href="#projects" className="nav-links">
-            <span className="col-green">03.</span> Projects
-          </a>
-        </div>
-        <div className="link-width mono">
-          <a href="#contact" className="nav-links">
-            <span className="col-green">04.</span> Contact
-          </a>
-        </div>
-        <div className="link-width mono">
-          <button
+          {/* <button
             className="btn"
             type="button"
             data-bs-toggle="modal"
@@ -43,7 +34,16 @@ function Navbar() {
             id="btn-green"
           >
             Resume
-          </button>
+          </button> */}
+          <a
+            href="assets/Curriculum Vitae - Francis Junior - PDF.pdf"
+            target="__blank"
+            className="btn"
+            style={{ width: "80%" }}
+            id="btn-green"
+          >
+            CV
+          </a>
         </div>
       </div>
       <button
@@ -66,5 +66,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;

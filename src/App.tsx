@@ -3,11 +3,11 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import Email from "./components/Email";
-import About from "./sections/About";
-import Experience from "./sections/Experience";
-import Work from "./sections/Projects";
-import Contact from "./sections/Contact";
-import Introduction from "./sections/Introduction";
+import About from "./sections/About/About";
+import Experience from "./sections/Experience/Experience";
+import Work from "./sections/Projects/Projects";
+import Contact from "./sections/Contact/Contact";
+import Introduction from "./sections/Introduction/Introduction";
 import Modal from "./components/Modal";
 
 function App() {

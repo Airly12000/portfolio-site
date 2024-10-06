@@ -1,4 +1,5 @@
 import React from "react";
+import { AboutData } from "./constants";
 
 function About() {
   return (
@@ -26,43 +27,31 @@ function About() {
       </div>
       <div className="row mt-4">
         <div className="col pe-4">
-          <p className="sans about-p">
-            Highly motivated, dedicated with ambitions to pursue careers in
-            Software Development (Web & Mobile), Artificial Intelligence, Cyber
-            Security and Network Administration.
-          </p>
-          <p className="sans about-p">
-            My ability to collaborate effectively within cross-functional teams,
-            coupled with a keen problem-solving aptitude, allows me to tackle
-            challenges head-on and deliver high-quality results. With a passion
-            for staying updated on emerging technologies, I am committed to
-            continuous learning and applying innovative approaches to drive
-            software excellence.
-          </p>
+          {AboutData?.paragraphs?.map((p, index) => {
+            return (
+              <p className="sans about-p" key={index}>
+                {p}
+              </p>
+            );
+          })}
           <p className="sans about-p">
             Here are some of the technologies I'm familiar with:
           </p>
           <div className="row ps-3 mono">
-            <ul className="col col-md-4">
-              <li>JavaScript (ES6+)</li>
-              <li>React</li>
-              <li>Express (NodeJs)</li>
-            </ul>
-            <ul className="col col-md-4">
-              <li>Typescript</li>
-              <li>WordPress</li>
-              <li>Python</li>
-            </ul>
-            <ul className="col col-md-4">
-              <li>SQL (Mongo & MySQL)</li>
-              <li>Figma</li>
-              <li>ReactNative</li>
-            </ul>
+            {AboutData?.technologies?.map((l, index) => {
+              return (
+                <ul className="col col-md-4" key={index}>
+                  {l?.map((t, i) => {
+                    return <li key={`${index}-${i}`}>{t}</li>;
+                  })}
+                </ul>
+              );
+            })}
           </div>
         </div>
         <div className="col-lg-5 mt-3 mt-lg-0 position-relative d-flex align-items-center justify-content-center about-img">
           <img
-            src="assets/img/photo.jpg"
+            src={AboutData?.imgUrl}
             alt="myPhoto"
             className="position-absolute rounded"
           />
