@@ -35,3 +35,16 @@ export const SocialLinks = [
 ];
 
 export const EmailConstant = "littlefrancis28@gmail.com";
+
+export const Resumes = [
+  { label: "Frontend", url: "assets/Resume - Francis Junior - FD - PDF.pdf" },
+  { label: "FullStack", url: "assets/Resume - Francis Junior - FS - PDF.pdf" },
+  {
+    label: "Education",
+    url: "assets/Curriculum Vitae - Francis Junior - ED - PDF.pdf",
+  },
+  {
+    label: "Full CV",
+    url: "assets/Curriculum Vitae - Francis Junior - PDF.pdf",
+  },
+];

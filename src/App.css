@@ -89,14 +89,20 @@
   box-shadow: 0 4px 8px 0 #0a192f;
   padding: 1.5rem 2rem 1.5rem 2rem;
   transition: transform ease 1s;
+  cursor: pointer;
 }
 
 #other-card:hover {
   h4 {
     color: #64ffda;
   }
-  cursor: pointer;
-  transform: translateY(-20px);
+  /* transform: translateY(-20px); */
+}
+
+@media screen and (min-width: 768px) {
+  #other-card:hover {
+    transform: translateY(-20px);
+  }
 }
 
 .socials a {

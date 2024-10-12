@@ -26,16 +26,16 @@ export default function Navbar() {
           );
         })}
         <div className="link-width mono">
-          {/* <button
+          <button
             className="btn"
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#resumeModal"
             id="btn-green"
           >
-            Resume
-          </button> */}
-          <a
+            Résumés
+          </button>
+          {/* <a
             href="assets/Curriculum Vitae - Francis Junior - PDF.pdf"
             target="__blank"
             className="btn"
@@ -43,7 +43,7 @@ export default function Navbar() {
             id="btn-green"
           >
             CV
-          </a>
+          </a> */}
         </div>
       </div>
       <button

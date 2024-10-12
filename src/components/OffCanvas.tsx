@@ -39,16 +39,16 @@ const OffCanvas = () => {
             className="link-width mono mb-4 h-55 mt-3 fs-20"
             data-bs-dismiss="offcanvas"
           >
-            {/* <button
-              className="btn w-100 h-100 d-flex align-items-center justify-content-center"
+            <button
+              className="btn"
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#resumeModal"
               id="btn-green"
             >
-              Resume
-            </button> */}
-            <a
+              Résumés
+            </button>
+            {/* <a
               href="assets/Curriculum Vitae - Francis Junior - PDF.pdf"
               target="__blank"
               className="btn"
@@ -56,7 +56,7 @@ const OffCanvas = () => {
               id="btn-green"
             >
               CV
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>
