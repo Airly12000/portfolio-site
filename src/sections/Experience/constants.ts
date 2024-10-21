@@ -36,7 +36,7 @@ export const ExperienceData = [
     ],
   },
   {
-    role: "Frontend Developer",
+    role: "FullStack Developer",
     company: "Fusionelle Consult Limited",
     duration: "January 2020 - February 2024",
     responsibilities: [
