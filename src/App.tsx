@@ -16,11 +16,11 @@ function App() {
     // className="overflow-hidden"
     // style={{ maxHeight: "100dvh", maxWidth: "100dvw" }}
     >
-      <div className=" bg-color col-dark-text w-100 h-100 overflow-y-scroll">
+      <div className=" bg-color col-dark-text w-100 h-100 overflow-y-auto">
         <Navbar />
         <Socials />
         <Email />
-        <div className="container pt-100 w-100 h-100 overflow-y-scroll">
+        <div className="container pt-100 w-100 h-100 overflow-y-auto overflow-x-hidden">
           <Introduction />
           <About />
           <Experience />
