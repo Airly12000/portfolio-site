@@ -9,7 +9,7 @@ export const ExperienceTabs = [
 
 export const ExperienceData = [
   {
-    role: "Frontend Developer",
+    role: "Lead Frontend Developer",
     company: "Pandora Software Consulting Ltd",
     duration: "April 2024 - Present",
     responsibilities: [
