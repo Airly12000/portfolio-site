@@ -27,7 +27,7 @@ export const ExperienceData = [
   {
     role: "Frontend Developer",
     company: "Ananse Labs Limited",
-    duration: "August 2024 - Present",
+    duration: "August 2024 - November 2024",
     responsibilities: [
       "Code and implement user interfaces for SaaS applications.",
       "Conduct thorough testing to ensure functionality and performance.",
